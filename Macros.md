@@ -11,6 +11,7 @@ End Sub
 
 Sub PresenterView()
     ActivePresentation.SlideShowSettings.ShowType = ppShowTypeSpeaker
+    ActivePresentation.SlideShowSettings.ShowPresenterView = True
     ActivePresentation.SlideShowSettings.Run.View.AcceleratorsEnabled = False
     Application.WindowState = ppWindowMinimized
 End Sub
